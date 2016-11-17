@@ -1,0 +1,53 @@
+
+.container {
+	display: flex;
+	max-width: 100%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.row {
+	display: flex;
+	width: 100%;
+}
+.col-beauty {
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px black;
+	background: radial-gradient(circle, white , #eee 40%, #ddd 100%);
+}
+.col-1 {
+	flex: 1;
+	margin: 0 5px;
+}
+.col-2 {
+	flex: 2;
+	margin: 0 5px;
+}
+.col-3 {
+	flex: 3;
+	margin: 0 5px;
+}
+.col-4 {
+	flex: 4;
+	margin: 0 5px;
+}
+.col-5 {
+	flex: 5;
+	margin: 0 5px;
+}
+.col-marg-1 {
+	margin-left: 20%;
+}
+.col-marg-2 {
+	margin-left: 40%;
+}
+.col-marg-3 {
+	margin-left: 60%;
+}
+.col-marg-4 {
+	margin-left: 80%;
+}
+.col-marg-5 {
+	margin-left: 100%;
+}
