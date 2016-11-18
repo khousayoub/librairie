@@ -10,6 +10,7 @@
 	display: flex;
 	width: 100%;
 }
+
 .col-beauty {
 	border: 1px solid black;
 	border-radius: 5px;
@@ -50,4 +51,25 @@
 }
 .col-marg-5 {
 	margin-left: 100%;
+}
+.pagination {
+	display: flex;
+	margin: 10px 0;
+	border-radius: 4px;
+}
+.pagination > li {
+  display: inline;
+}
+.pagination > li > a {
+	padding: 6px 12px;
+	color: #35DA03;
+	background-color: #fff;
+  border: 1px solid #ddd;
+	text-shadow: 1px 1px 2px #35DA03;
+}
+.pagination > li > a:hover, .pagination > li > a:focus {
+	color: #23527c;
+  background-color: #eee;
+  border-color: #ddd;
+	cursor: default;
 }
