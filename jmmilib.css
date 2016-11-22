@@ -171,12 +171,13 @@ li.list .drop-list a {
 	width: 100%;
 }
 .col-beauty {
+	display: flex;
 	border: 1px solid black;
 	border-radius: 5px;
 	box-shadow: 1px 1px 5px black;
 	background: radial-gradient(circle, white , #eee 40%, #ddd 100%);
 	padding: 10px;
-	height: 400px;
+	height: auto;
 }
 .col-1 {
 	flex: 1;
@@ -227,13 +228,14 @@ li.list .drop-list a {
 	color: #35DA03;
 	background-color: #fff;
     border: 1px solid #ddd;
-	text-shadow: 1px 1px 2px #35DA03;
 }
 .pagination > li >a:hover
  {
-	color: #23527c;
+ 	text-shadow: 1px 1px 2px black;
+	color: #662C56;
 	background-color: #eee;
 	border-color: #ddd;
+	transition: color 0.5s, background-color 0.5s;
 }
 .pagination > li >a:active {
 
