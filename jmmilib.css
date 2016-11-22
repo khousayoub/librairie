@@ -1,6 +1,7 @@
 
 .container {
 	display: flex;
+	flex-direction: column;
 	max-width: 100%;
 	padding: 10px;
 	margin-left: auto;
@@ -10,12 +11,12 @@
 	display: flex;
 	width: 100%;
 }
-
 .col-beauty {
 	border: 1px solid black;
 	border-radius: 5px;
 	box-shadow: 1px 1px 5px black;
 	background: radial-gradient(circle, white , #eee 40%, #ddd 100%);
+	padding: 10px;
 }
 .col-1 {
 	flex: 1;
@@ -56,20 +57,30 @@
 	display: flex;
 	margin: 10px 0;
 	border-radius: 4px;
+	width: auto;
 }
 .pagination > li {
   display: inline;
 }
 .pagination > li > a {
+	z-index: 2;
 	padding: 6px 12px;
 	color: #35DA03;
 	background-color: #fff;
   border: 1px solid #ddd;
 	text-shadow: 1px 1px 2px #35DA03;
 }
-.pagination > li > a:hover, .pagination > li > a:focus {
+.pagination > li >a:hover, .pagination > li >a:active {
 	color: #23527c;
-  background-color: #eee;
-  border-color: #ddd;
-	cursor: default;
+	background-color: #eee;
+	border-color: #ddd;
+}
+.page_left {
+	float: left;
+}
+.page_right {
+	float: right;
+}
+.page_center {
+
 }
