@@ -4,30 +4,29 @@
 <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="master.css" media="screen" title="no title">
+    <link rel="stylesheet" href="jmmilib.css" media="screen" title="no title">
 </head>
 
 <body>
     <form class="" action="index.html" method="post">
         <fieldset>
-            <label for="password">Password</label>
-            <input id="formblock" type="password" placeholder="Password">
-            <input id="formblock" type="password" placeholder="Password">
-            <input id="formblock" type="password" placeholder="Password">
-            <div>
-                <input id="forminline" type="radio" name="radio" id="radio"> <label for="radio">Ici</label>
-                <input id="forminline" type="radio" name="radio" id="radio"> <label for="radio">ou là</label>
-            </div>
-            <div>
-                <input type="checkbox" id="forminline" value="ici"> Ici</label>
-                <input type="checkbox" id="forminline" value="et là">Et là</label>
-            </div>
-            <button type="submit">cliquez là</button>
-
+                <label class="formblock" for="password">Password</label>
+                <input class="formblock" type="password" placeholder="Password">
+                <input class="formblock" type="password" placeholder="Password">
+                <input class="formblock" type="password" placeholder="Password">
+                <div>
+                    <input class="forminline" type="radio" name="radio" id="radio"> <label for="radio">Ici</label>
+                    <input class="forminline" type="radio" name="radio" id="radio"> <label for="radio">ou là</label>
+                </div>
+                <div>
+                    <input class="forminline" type="checkbox" id="cbo12"> <label for="cbox2">Voilà la première checkbox</label>
+                    <input class="forminline" type="checkbox" id="cbox2"> <label for="cbox2">Voilà la deuxième checkbox</label>
+                </div>
+                <button type="submit">cliquez là</button>
         </fieldset>
         <fieldset>
-            <input id="forminline" type="email/pseudo" placeholder="email/pseudo">
-            <input id="forminline" type="password " placeholder="Password ">
+            <input class="forminline" type="email/pseudo" placeholder="email/pseudo">
+            <input class="forminline" type="password " placeholder="Password ">
 
         </fieldset>
     </form>
