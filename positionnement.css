@@ -1,0 +1,107 @@
+.navbar-top-fix {
+	top:0;
+	position: fixed;
+}
+.navbar-left-fix {
+	float: left;
+	position: fixed;
+}
+.navbar-right-fix {
+	float: right;
+	position: fixed;
+}
+.navbar-center {
+	width: auto;
+	margin: 0 auto;
+}
+
+.navbar-dflt {
+	background-color: #f8f8f8;
+	border-color: #e7e7e;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.row {
+	display: flex;
+	width: 100%;
+}
+.col-beauty {
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px black;
+	background: radial-gradient(circle, white , #eee 40%, #ddd 100%);
+	padding: 10px;
+}
+.col-1 {
+	flex: 1;
+	margin: 0 5px;
+}
+.col-2 {
+	flex: 2;
+	margin: 0 5px;
+}
+.col-3 {
+	flex: 3;
+	margin: 0 5px;
+}
+.col-4 {
+	flex: 4;
+	margin: 0 5px;
+}
+.col-5 {
+	flex: 5;
+	margin: 0 5px;
+}
+.col-marg-1 {
+	margin-left: 20%;
+}
+.col-marg-2 {
+	margin-left: 40%;
+}
+.col-marg-3 {
+	margin-left: 60%;
+}
+.col-marg-4 {
+	margin-left: 80%;
+}
+.col-marg-5 {
+	margin-left: 100%;
+}
+.pagination {
+	display: flex;
+	margin: 10px 0;
+	border-radius: 4px;
+	width: auto;
+}
+.pagination > li {
+  display: inline;
+}
+.pagination > li > a {
+	z-index: 2;
+	padding: 6px 12px;
+	color: #35DA03;
+	background-color: #fff;
+  border: 1px solid #ddd;
+	text-shadow: 1px 1px 2px #35DA03;
+}
+.pagination > li >a:hover, .pagination > li >a:active {
+	color: #23527c;
+	background-color: #eee;
+	border-color: #ddd;
+}
+.page_left {
+	float: left;
+}
+.page_right {
+	float: right;
+}
+.page_center {
+
+}
