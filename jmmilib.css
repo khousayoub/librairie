@@ -43,14 +43,15 @@ body {
 	width: 100%;
 	margin-left: 13%;
 }
+.navbar-default li {
+	text-align: center;
+}
 .navbar-default li a{
 	padding: 25px;
 	width: auto;
 	text-align: center;
 	color: white;
-}
-.navbar-default li {
-	text-align: center;
+	display: inline-block;
 }
 .navbar-default li:hover a{
 	background-color: black;
