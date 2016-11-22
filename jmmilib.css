@@ -1,6 +1,7 @@
-.navbar-top-fix {
-	top:0;
-	position: fixed;
+.nav_top_fix, .nav_bot_fix {
+  position: fixed;
+  right: 0;
+  left: 0;
 }
 .navbar-left-fix {
 	float: left;
@@ -15,12 +16,40 @@
 	margin: 0 auto;
 }
 
-.navbar-dflt {
+.navbar-default {
 	background-color: #f8f8f8;
-	border-color: #e7e7e;
+	color: #e7e7e;
+	min-height: 50px;
+	box-sizing: border-box;
 }
-
-.container {
+.navbar_large_white {
+	display: flex;
+	width: 100%;
+	border-bottom: 2px solid black;
+	margin-bottom: 20px;
+}
+.navbar_large_dark {
+	display: flex;
+	width: 100%;
+	background-color: black;
+	margin-bottom: 20px;
+}
+.navbarè_large_white li {
+	color: black;
+	margin: 0 10px;
+	border: 1px solid black;
+	box-shadow: 1px 1px 1px 5px black;
+	flex:1;
+}
+.navbarè_large_black li {
+	color: white;
+	margin: 0 10px;
+	border: 1px solid white;
+	
+	box-shadow: 1px 1px 1px 5px white;
+	flex:1;
+}
+.container_column {
 	display: flex;
 	flex-direction: column;
 	max-width: 100%;
@@ -28,6 +57,7 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .row {
 	display: flex;
 	width: 100%;
