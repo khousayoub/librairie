@@ -49,6 +49,9 @@ body {
 	text-align: center;
 	color: white;
 }
+.navbar-default li {
+	text-align: center;
+}
 .navbar-default li:hover a{
 	background-color: black;
 	transition: background-color 0.5s;
@@ -217,20 +220,23 @@ li.list .drop-list a {
 	width: auto;
 }
 .pagination > li {
-  display: inline;
+  display: block-inline;
 }
 .pagination > li > a {
-	z-index: 2;
 	padding: 6px 12px;
 	color: #35DA03;
 	background-color: #fff;
-  border: 1px solid #ddd;
+    border: 1px solid #ddd;
 	text-shadow: 1px 1px 2px #35DA03;
 }
-.pagination > li >a:hover, .pagination > li >a:active {
+.pagination > li >a:hover
+ {
 	color: #23527c;
 	background-color: #eee;
 	border-color: #ddd;
+}
+.pagination > li >a:active {
+	
 }
 .page-left {
 	float: left;
