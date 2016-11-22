@@ -4,82 +4,111 @@ body {
 *{
 	text-decoration: none;
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 header {
 	position: relative;
 	display: flex;
 	margin-bottom: 10px;
-	height: 50px;
-}
-
-.nav-top-fix {
-  position: fixed;
-  right: 0;
-  left: 0;
-}
-.nav-top-left {
-	position: absolute;
-	left: 0;
-}
-.nav-top-right {
-	position: absolute;
-	right: 0;
-}
-.nav-top-right li {
-	flex: none;
-}
-.nav-top-left li {
-	flex: none;
+	height: 67px;
+	background-color: #868686;
 }
 .navbar-default {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #f8f8f8;
-	min-height: 50px;
-	box-sizing: border-box;
+	background-color: #3c3a3a;
+	height: 100%;
 	width: auto;
 }
-.navbar-default li {
-	flex:1;
-	padding: 5px;
-	margin: 0 5px;
+.navbar-default li a{
+	padding: 25px;
 	width: auto;
 	text-align: center;
-	border:1px solid black;
-	box-sizing: border-box;
+	color: white;
+}
+.navbar-default li:hover a{
+	background-color: black;
+	transition: background-color 0.5s;
+}
+.navbar-default li:active a{
+	background-color: green;
+}
+.nav-top-fix {
+  position: fixed;
 }
 .navbar-center {
 	width: 100%;
 }
-.navbar-center li {
-	flex:none;
-}
 .navbar-large-white {
 	width: 100%;
-	border-bottom: 2px solid black;
-	margin-bottom: 20px;
 }
-.navbar-large-dark {
-	width: 100%;
+.navbar-small-black {
 	background-color: black;
-	margin-bottom: 20px;
 }
-.navbar-large-white li {
-	color: black;
-	margin: 0 10px;
-	border: 1px solid black;
-	box-sizing: border-box;
-	box-shadow: 1px 1px 1px 5px black;
-	flex:1;
-}
-.navbar-large-black li {
+.navbar-large-black {
+	width: 100%;
 	color: white;
-	margin: 0 10px;
-	border: 1px solid white;
-	box-sizing: border-box;
-	box-shadow: 1px 1px 1px 5px white;
-	flex:1;
+	background-color: black;
+}
+.navbar-large-black li a, 
+.navbar-small-black li a {
+	color: white;
+}
+.navbar-large-black li:hover a, 
+.navbar-small-black li:hover a {
+	background-color: grey;
+	transition: background-color 0.5s;
+}
+.navbar-large-black li:active a, 
+.navbar-small-black li:active a {
+	background-color: blue;
+}
+.navbar-large-white li a,
+.navbar-small-white li a {
+	color: black;
+	background-color: white;
+}
+.navbar-large-white li:hover a,
+.navbar-small-white li:hover a {
+	color: white;
+	background-color: black;
+	transition: background-color 0.5s, color 0.5s ;
+}
+.navbar-large-white li:active a,
+.navbar-small-white li:active a {
+	background-color: blue;
+}
+.list {
+	position: relative;
+    display: inline-block;
+}
+.list a {
+	display: inline-block;
+}
+.list:hover .drop-list {
+	display: inline-block;
+}
+
+.navbar-large-white .list .drop-list a,
+.navbar-small-white .list .drop-list a {
+	display: block;
+	padding: 15px;
+	text-align: left;
+	color: black;
+	background-color: white;
+}
+.navbar-large-white .list .drop-list a:hover,
+.navbar-small-white .list .drop-list a:hover {
+	color: white;
+	background-color: black;
+	transition: background-color 0.5s, color 0.5s ;
+}
+.drop-list {
+	display: none;
+	position: absolute;
+	min-width: 160px;
 }
 
 .container {
