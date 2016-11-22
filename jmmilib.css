@@ -1,63 +1,95 @@
-.nav_top_fix, .nav_bot_fix {
+body {
+	margin:0;
+}
+*{
+	text-decoration: none;
+	list-style-type: none;
+}
+header {
+	position: relative;
+	display: flex;
+	margin-bottom: 10px;
+	height: 50px;
+}
+
+.nav-top-fix {
   position: fixed;
   right: 0;
   left: 0;
 }
-.navbar-left-fix {
-	float: left;
-	position: fixed;
+.nav-top-left {
+	position: absolute;
+	left: 0;
 }
-.navbar-right-fix {
-	float: right;
-	position: fixed;
+.nav-top-right {
+	position: absolute;
+	right: 0;
 }
-.navbar-center {
-	width: auto;
-	margin: 0 auto;
+.nav-top-right li {
+	flex: none;
 }
-
+.nav-top-left li {
+	flex: none;
+}
 .navbar-default {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background-color: #f8f8f8;
-	color: #e7e7e;
 	min-height: 50px;
 	box-sizing: border-box;
+	width: auto;
 }
-.navbar_large_white {
-	display: flex;
+.navbar-default li {
+	flex:1;
+	padding: 5px;
+	margin: 0 5px;
+	width: auto;
+	text-align: center;
+	border:1px solid black;
+	box-sizing: border-box;
+}
+.navbar-center {
+	width: 100%;
+}
+.navbar-center li {
+	flex:none;
+}
+.navbar-large-white {
 	width: 100%;
 	border-bottom: 2px solid black;
 	margin-bottom: 20px;
 }
-.navbar_large_dark {
-	display: flex;
+.navbar-large-dark {
 	width: 100%;
 	background-color: black;
 	margin-bottom: 20px;
 }
-.navbarè_large_white li {
+.navbar-large-white li {
 	color: black;
 	margin: 0 10px;
 	border: 1px solid black;
+	box-sizing: border-box;
 	box-shadow: 1px 1px 1px 5px black;
 	flex:1;
 }
-.navbarè_large_black li {
+.navbar-large-black li {
 	color: white;
 	margin: 0 10px;
 	border: 1px solid white;
-	
+	box-sizing: border-box;
 	box-shadow: 1px 1px 1px 5px white;
 	flex:1;
 }
-.container_column {
+
+.container {
 	display: flex;
 	flex-direction: column;
 	max-width: 100%;
-	padding: 10px;
+	padding: 0 10px;
 	margin-left: auto;
 	margin-right: auto;
 }
-
 .row {
 	display: flex;
 	width: 100%;
@@ -68,6 +100,7 @@
 	box-shadow: 1px 1px 5px black;
 	background: radial-gradient(circle, white , #eee 40%, #ddd 100%);
 	padding: 10px;
+	height: 800px;
 }
 .col-1 {
 	flex: 1;
@@ -126,12 +159,12 @@
 	background-color: #eee;
 	border-color: #ddd;
 }
-.page_left {
+.page-left {
 	float: left;
 }
-.page_right {
+.page-right {
 	float: right;
 }
-.page_center {
+.page-center {
 
 }
