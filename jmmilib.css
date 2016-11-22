@@ -236,14 +236,6 @@ li.list .drop-list a {
 	border-color: #ddd;
 }
 .pagination > li >a:active {
-	
-}
-.page-left {
-	float: left;
-}
-.page-right {
-	float: right;
-}
-.page-center {
 
 }
+
