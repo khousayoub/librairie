@@ -4,10 +4,24 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="jmmilib.css" media="screen" title="no title">
+    <style>
+  span {
+    color: red;
+  }
+  p {
+    margin: 8px;
+  }
+
+@media screen and (max-width: 550px){
+   p {
+      font-size: 12px;
+    }
+}
+
+</style>
   </head>
   <body>
       <header class="header-horizontal">
-
         <ul class="navbar-default navbar-large-black">
           <li><a href="">Formulaires</a></li>
           <li class="list"><a href="">Boutons &#x290B;</a>
@@ -29,6 +43,11 @@
           <li><a href="">Textes</a></li>
         </ul>
       </header>
+      <div class="row" id="grid"> 
+        <h3 class="col-1 col-beauty" style="text-align:center;">
+          La GRID
+        </h3>
+      </div>
       <div class="row">
           <div class="col-marg-2"></div>
           <h3 class="col-1 col-beauty">
@@ -145,13 +164,13 @@
         <div class="container-column col-beauty">
       <div class="row">
         <div class="col-1">
-          <h3>Des Colonnes margins class : col-marg-x</h3>
+          <h3>Des Colonnes margins class : <mark>col-marg-x</mark></h3>
           <p>On a créé des colones qui servent à faire des margin entre les colones exemple :</p>
         </div>
       </div>
        <div class="row">
         <div class="col-1 col-beauty">
-          <h3>celle-ci est une Colonne col-1, à coté une Colonne col-marg-1 : colonne de margin de flex 1 ; dans ce cas elle fait une margin de 1/2 de la taille du row</h3>
+          <h3>celle-ci est une Colonne col-1, à coté une Colonne <mark>col-marg-1</mark> : colonne de margin de flex 1 ; dans ce cas elle fait une margin de 1/2 de la taille du row</h3>
         </div>
         <div class="col-marg-1"></div>
       </div>
@@ -168,6 +187,114 @@
           <h3>celle-ci est une Colonne col-1, à gauche une collone de col-marg-2 : 2/3 de margin gauche</h3>
         </div>
       </div>
+       <div class="row">
+        <div class="col-1 col-beauty">
+          <h3>celle-ci est une Colonne col-1, à droite une collone de col-marg-3 : 2/3 de margin gauche</h3>
+        </div>
+        <div class="col-marg-3"></div>
       </div>
+       <div class="row">
+       <div class="col-marg-4"></div>
+        <div class="col-1 col-beauty">
+          <h3>celle-ci est une Colonne col-1, à gauche une collone de col-marg-4 : 2/3 de margin gauche</h3>
+        </div>
+      </div>
+       <div class="row">
+        <div class="col-1 col-beauty">
+          <h3>celle-ci est une Colonne col-1, à droite une collone de col-marg-5 : 2/3 de margin gauche</h3>
+        </div>
+        <div class="col-marg-5"></div>
+      </div>
+      <div class="row">
+        <div class="col-1 col-beauty">
+          <h3>celle-ci est une Colonne col-1, à droite une collone de col-marg-2 : 2/3 de margin gauche</h3>
+        </div>
+        <div class="col-marg-2"></div>
+        <div class="col-1 col-beauty">
+          <h3>celle-ci est une Colonne col-1, on peut mélanger les collones margin et collones , à droite coloone margin 2</h3>
+        </div>
+        <div class="col-marg-2"></div>
+      </div>
+      </div>
+      <div class="row"> 
+        <h3 class="col-1 col-beauty" style="text-align:center;">
+          Les bouttons
+        </h3>
+      </div>
+      <div class="container-column col-beauty">
+        <p>bouton normale vert petit <a href="#" class="btn-stdrgS">Valider</a> :btn-stdrg<span>S &nbsp; Small</span>&nbsp;stdr=standard</p>
+        <p>bouton normale vert moyen <a href="#" class="btn-stdrgM">Valider</a> :btn-stdrg<span>M &nbsp; Medium</span>&nbsp;</p>
+        <p>bouton normale vert large <a href="#" class="btn-stdrgL">Valider</a> :btn-stdrg<span>L &nbsp; Large</span>&nbsp;</p>
+        <p>bouton normale gris petit <a href="#" class="btn-stdrgryS">Valider</a> :btn-stdrgryS</p>
+        <p>bouton normale gris moyen <a href="#" class="btn-stdrgryM">Valider</a> :btn-stdrgryM</p>
+        <p>bouton normale gris large <a href="#" class="btn-stdrgryL">Valider</a> :btn-stdrgryL</p>
+        <p>bouton normale rouge petit <a href="#" class="btn-stdrrS">Valider</a> :btn-stdrrS</p>
+        <p>bouton normale rouge moyen <a href="#" class="btn-stdrrM">Valider</a> :btn-stdrrM</p>
+        <p>bouton normaler rouge large <a href="#" class="btn-stdrrL">Valider</a> :btn-stdrrL</p>
+        <p>bouton vert petit arrondis sur les coter <a href="#" class="btn-ardgS">Valider</a> :btn-ardgS</p>
+        <p>bouton vert moyen arrondis sur les coter <a href="#" class="btn-ardgM">Valider</a> :btn-ardgM</p>
+        <p>bouton vert large arrondis sur les coter <a href="#" class="btn-ardgL">Valider</a> :btn-ardgL</p>
+        <p>bouton gris petit arrondis sur les coter <a href="#" class="btn-ardgryS">Valider</a> :btn-ardgryS</p>
+        <p>bouton gris moyen arrondis sur les coter <a href="#" class="btn-ardgryM">Valider</a> :btn-ardgryM</p>
+        <p>bouton gris large arrondis sur les coter <a href="#" class="btn-ardgryL">Valider</a> :btn-ardgryL</p>
+        <p>bouton rouge petit arrondis sur les coter <a href="#" class="btn-ardrS">Valider</a> :btn-ardrS</p>
+        <p>bouton rouge moyen arrondis sur les coter <a href="#" class="btn-ardrM">Valider</a> :btn-ardrM</p>
+        <p>bouton rouge large arrondis sur les coter <a href="#" class="btn-ardrL">Valider</a> :btn-ardrL</p>
+        <p>bouton côtés rond vert petit <a href="#" class="btn-rndgS">Valider</a> :btn-rndgS</p>
+        <p>bouton côtés rond vert moyen <a href="#" class="btn-rndgM">Valider</a> :btn-rndgM</p>
+        <p>bouton côtés rond vert large <a href="#" class="btn-rndgL">Valider</a> :btn-rndgL</p>
+        <p>bouton côtés rond gris petit <a href="#" class="btn-rndgryS">Valider</a> :btn-rndgryS</p>
+        <p>bouton côtés rond gris moyen <a href="œœœœ#" class="btn-rndgryM">Valider</a> :btn-rndgryM</p>
+        <p>bouton côtés rond gris large<a href="#" class="btn-rndgryL">Valider</a> :btn-rndgryL</p>
+        <p>bouton côtés rond rouge petit <a href="#" class="btn-rndrS">Valider</a> :btn-rndrS</p>
+        <p>bouton côtés rond rouge moyen <a href="#" class="btn-rndrM">Valider</a> :btn-rndrM</p>
+        <p>bouton côtés rond rouge large <a href="#" class="btn-rndrL">Valider</a> :btn-rndrL</p>
+        <p>bouton rond vert  <a href="#" class="btn-RNDg">Valider</a> :btn-RNDg</p>
+        <p>bouton rond gris  <a href="#" class="btn-RNDgry">Valider</a> :btn-RNDgry</p>
+        <p>bouton rond rouge <a href="#" class="btn-RNDr">Valider</a> :btn-RNDr</p>
+      </div>
+      <div class="row" id="grid"> 
+        <h3 class="col-1 col-beauty" style="text-align:center;">
+          Les Formulaires
+        </h3>
+      </div>
+      <div class="container-column">
+      <form class="" action="index.html" method="post">
+      <div class="row" style="text-align:center;"">
+          <div class="col-marg-2"></div>
+          <h3 class="col-1 col-beauty">
+            Le formulaire de saisie
+          </h3>
+          <div class="col-marg-2"></div>
+      </div>
+        <fieldset style="padding:10px;">
+                <input class="formblock" type="email" placeholder="email">
+                <input class="formblock" type="password" placeholder="Password">
+                <input class="formblock" type="code postal" placeholder="code postal">
+                <div>
+                    <input class="forminline" type="radio" name="radio" id="radio"> <label for="radio">Ici</label>
+                    <input class="forminline" type="radio" name="radio" id="radio"> <label for="radio">ou là</label>
+                </div>
+                <div>
+                    <input class="forminline" type="checkbox" id="cbo12"> <label for="cbox2">Voilà la première checkbox</label>
+                    <input class="forminline" type="checkbox" id="cbox2"> <label for="cbox2">Voilà la deuxième checkbox</label>
+                </div>
+                <button class="formblock" type="submit">Confirmer</button>
+        </fieldset>
+        <div class="row" style="text-align:center;"">
+          <div class="col-marg-2"></div>
+          <h3 class="col-1 col-beauty">
+            Le formulaire d'identification
+          </h3>
+          <div class="col-marg-2"></div>
+      </div>
+        <fieldset  style="padding:10px;">
+            <input class="forminline" type="email/pseudo" placeholder="email/pseudo">
+            <input class="forminline" type="password " placeholder="Password ">
+            <button class="formblock" type="submit">Se connecter</button>
+        </fieldset>
+    </form>
+    </div>
+    </div><br>
   </body>
 </html>
