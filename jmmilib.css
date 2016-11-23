@@ -1448,4 +1448,44 @@ li.list .drop-list a {
     position: fixed!important;
     left: -195px;
 	}
+	.forminline, .formblock, button, input, select, textarea {
+    width: 100%;
+    display: block;
+  }
+}
+.formblock {
+  padding: .5em .6em;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 3px #ddd;
+  border-radius: 4px;
+  margin: .25em 0;
+  box-sizing: border-box;
+  display: block;
+  color: #ccc;
+}
+
+.forminline {
+  padding: .5em .6em;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 3px #ddd;
+  border-radius: 4px;
+  vertical-align: middle;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #ccc;
+}
+fieldset{
+  width: auto;
+  padding: 0;
+  min-width: 0;
+}
+/*form reset*/
+
+button, input, select, textarea {
+    font: inherit;
+    box-sizing: border-box;
+    margin: 0;
+    color: #ccc;
 }
