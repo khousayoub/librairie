@@ -3,14 +3,14 @@
 
 
 .btn-stdrgS {  /*bouton standard vert petit*/
-	padding:4px 9px;
+	padding:0.250em 0.563em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#44c767;
 	border:1px solid #18ab29;
 	text-decoration:none;
 	display:inline-block;
-	font-size:11px;
+	font-size:0.688em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #3dc21b;
 }
@@ -26,14 +26,14 @@
 
 
 .btn-stdrgM {  /*bouton standard vert moyen*/
-	padding:7px 16px;
+	padding:0.438em 1em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#44c767;
 	border:1px solid #18ab29;
 	text-decoration:none;
 	display:inline-block;
-	font-size:15px;
+	font-size:0.938em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #3dc21b;
 }
@@ -49,14 +49,14 @@
 
 
 .btn-stdrgL {  /*bouton standard vert large*/
-	padding:7px 50px;
+	padding:0.438em 3.125em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#44c767;
 	border:1px solid #18ab29;
 	text-decoration:none;
 	display:inline-block;
-	font-size:15px;
+	font-size:0.938em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #3dc21b;
 }
@@ -71,14 +71,14 @@
 }
 
 .btn-stdrgryS { /*bouton standard gris petit*/
-	padding:4px 9px;
+	padding:0.250em 0.563em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#768d87;
 	border:1px solid #566963;
 	text-decoration:none;
 	display:inline-block;
-	font-size:11px;
+	font-size:0.688em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #91b8b3;
 }
@@ -92,37 +92,17 @@
 	background-color:#6c7c7c;
 }
 
-.btn-stdrrS { /*bouton standard rouge petit*/
-	padding:4px 9px;
-	color:#ffffff;
-	font-family:Arial;
-	background-color:#fe1a00;
-	border:1px solid #d83526;
-	text-decoration:none;
-	display:inline-block;
-	font-size:11px;
-	font-weight:bold;
-	box-shadow: 3px 3px 8px 0px #f29c93;
-}
 
-.btn-stdrrS:active {
-	position:relative;
-	top:1px;
-}
-
-.btn-stdrrS:hover {
-	background-color:#ce0100;
-}
 
 .btn-stdrgryM { /*bouton standard gris moyen*/
-	padding:7px 16px;
+	padding:0.438em 1em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#768d87;
 	border:1px solid #566963;
 	text-decoration:none;
 	display:inline-block;
-	font-size:15px;
+	font-size:0.938em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #91b8b3;
 }
@@ -137,14 +117,14 @@
 }
 
 .btn-stdrgryL { /*bouton standard gris large*/
-	padding:7px 50px;
+	padding:0.438em 3.125em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#768d87;
 	border:1px solid #566963;
 	text-decoration:none;
 	display:inline-block;
-	font-size:15px;
+	font-size:0.938em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #91b8b3;
 }
@@ -158,15 +138,37 @@
 	background-color:#6c7c7c;
 }
 
-.btn-stdrrM { /*bouton standard rouge moyen*/
-	padding:7px 16px;
+.btn-stdrrS { /*bouton standard rouge petit*/
+	padding:0.250em 0.563em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#fe1a00;
 	border:1px solid #d83526;
 	text-decoration:none;
 	display:inline-block;
-	font-size:15px;
+	font-size:0.688em;
+	font-weight:bold;
+	box-shadow: 3px 3px 8px 0px #f29c93;
+}
+
+.btn-stdrrS:active {
+	position:relative;
+	top:1px;
+}
+
+.btn-stdrrS:hover {
+	background-color:#ce0100;
+}
+
+.btn-stdrrM { /*bouton standard rouge moyen*/
+	padding:0.438em 1em;
+	color:#ffffff;
+	font-family:Arial;
+	background-color:#fe1a00;
+	border:1px solid #d83526;
+	text-decoration:none;
+	display:inline-block;
+	font-size:0.938em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #f29c93;
 }
@@ -181,14 +183,14 @@
 }
 
 .btn-stdrrL { /*bouton standard rouge large*/
-	padding:7px 50px;
+	padding:0.438em 3.125em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#fe1a00;
 	border:1px solid #d83526;
 	text-decoration:none;
 	display:inline-block;
-	font-size:15px;
+	font-size:0.938em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #f29c93;
 }
@@ -207,14 +209,14 @@
 		/* début bouton rectangulaire arrondis */
 
 .btn-ardgS { /*bouton arrondis vert petit*/
-	padding:4px 9px;
+	padding:0.250em 0.563em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#44c767;
 	border:1px solid #18ab29;
 	text-decoration:none;
 	display:inline-block;
-	font-size:11px;
+	font-size:0.688em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #3dc21b;
 	border-radius:8px;
@@ -230,14 +232,14 @@
 }
 
 .btn-ardgM { /*bouton arrondis vert moyen*/
-	padding:7px 16px;
+	padding:0.438em 1em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#44c767;
 	border:1px solid #18ab29;
 	text-decoration:none;
 	display:inline-block;
-	font-size:15px;
+	font-size:0.938em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #3dc21b;
 	border-radius:8px;
@@ -253,14 +255,14 @@
 }
 
 .btn-ardgL { /*bouton arrondis vert large*/
-	padding:7px 50px;
+	padding:0.438em 3.125em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#44c767;
 	border:1px solid #18ab29;
 	text-decoration:none;
 	display:inline-block;
-	font-size:15px;
+	font-size:0.938em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #3dc21b;
 	border-radius:8px;
@@ -276,14 +278,14 @@
 }
 
 .btn-ardgryS { /*bouton arrondis gris petit*/
-	padding:4px 9px;
+	padding:0.250em 0.563em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#768d87;
 	border:1px solid #566963;
 	text-decoration:none;
 	display:inline-block;
-	font-size:11px;
+	font-size:0.688em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #91b8b3;
 	border-radius:8px;
@@ -300,14 +302,14 @@
 
 
 .btn-ardgryM { /*bouton arrondis gris moyen*/
-	padding:7px 16px;
+	padding:0.438em 1em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#768d87;
 	border:1px solid #566963;
 	text-decoration:none;
 	display:inline-block;
-	font-size:15px;
+	font-size:0.938em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #91b8b3;
 	border-radius:8px;
@@ -323,14 +325,14 @@
 }
 
 .btn-ardgryL{ /*bouton arrondis gris large*/
-	padding:7px 50px;
+	padding:0.438em 3.125em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#768d87;
 	border:1px solid #566963;
 	text-decoration:none;
 	display:inline-block;
-	font-size:15px;
+	font-size:0.938em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #91b8b3;
 	border-radius:8px;
@@ -346,14 +348,14 @@
 }
 
 .btn-ardrS { /*bouton arrondis rouge petit*/
-	padding:4px 9px;
+	padding:0.250em 0.563em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#fe1a00;
 	border:1px solid #d83526;
 	text-decoration:none;
 	display:inline-block;
-	font-size:11px;
+	font-size:0.688em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #f29c93;
 	border-radius:8px;
@@ -369,14 +371,14 @@
 }
 
 .btn-ardrM { /*bouton arrondis rouge moyen*/
-	padding:7px 16px;
+	padding:0.438em 1em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#fe1a00;
 	border:1px solid #d83526;
 	text-decoration:none;
 	display:inline-block;
-	font-size:15px;
+	font-size:0.938em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #f29c93;
 	border-radius:8px;
@@ -392,14 +394,14 @@
 }
 
 .btn-ardrL { /*bouton arrondis rouge large*/
-	padding:7px 50px;
+	padding:0.438em 3.125em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#fe1a00;
 	border:1px solid #d83526;
 	text-decoration:none;
 	display:inline-block;
-	font-size:15px;
+	font-size:0.938em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #f29c93;
 	border-radius:8px;
@@ -418,14 +420,14 @@
 	/*début bouton côtés rond*/
 
 .btn-rndgS { /*bouton côtés rond vert petit*/
-	padding:4px 9px;
+	padding:0.250em 0.563em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#44c767;
 	border:1px solid #18ab29;
 	text-decoration:none;
 	display:inline-block;
-	font-size:11px;
+	font-size:0.688em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #3dc21b;
 	border-radius:28px;
@@ -442,14 +444,14 @@
 
 
 .btn-rndgM { /*bouton côtés rond vert moyen*/
-	padding:7px 16px;
+	padding:0.438em 1em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#44c767;
 	border:1px solid #18ab29;
 	text-decoration:none;
 	display:inline-block;
-	font-size:15px;
+	font-size:0.938em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #3dc21b;
 	border-radius:28px;
@@ -465,14 +467,14 @@
 }
 
 .btn-rndgL { /*bouton côtés rond vert large*/
-	padding:7px 50px;
+	padding:0.438em 3.125em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#44c767;
 	border:1px solid #18ab29;
 	text-decoration:none;
 	display:inline-block;
-	font-size:15px;
+	font-size:0.938em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #3dc21b;
 	border-radius:28px;
@@ -488,37 +490,14 @@
 }
 
 .btn-rndgryS { /*bouton côtés rond gris petit*/
-	padding:4px 9px;
+	padding:0.250em 0.563em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#768d87;
 	border:1px solid #566963;
 	text-decoration:none;
 	display:inline-block;
-	font-size:11px;
-	font-weight:bold;
-	box-shadow: 3px 3px 8px 0px #91b8b3;
-	border-radius:28px;
-}
-
-.btn-rndgryS:active {
-	position:relative;
-	top:1px;
-}
-
-.btn-rndgryS:hover {
-	background-color:#6c7c7c;
-}
-
-.btn-rndgryS { /*bouton côtés rond gris petit*/
-	padding:4px 9px;
-	color:#ffffff;
-	font-family:Arial;
-	background-color:#768d87;
-	border:1px solid #566963;
-	text-decoration:none;
-	display:inline-block;
-	font-size:11px;
+	font-size:0.688em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #91b8b3;
 	border-radius:28px;
@@ -535,14 +514,14 @@
 
 
 .btn-rndgryM { /*bouton côtés rond gris moyen*/
-	padding:7px 16px;
+	padding:0.438em 1em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#768d87;
 	border:1px solid #566963;
 	text-decoration:none;
 	display:inline-block;
-	font-size:15px;
+	font-size:0.938em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #91b8b3;
 	border-radius:28px;
@@ -558,14 +537,14 @@
 }
 
 .btn-rndgryL { /*bouton côtés rond gris large*/
-	padding:7px 50px;
+	padding:0.438em 3.125em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#768d87;
 	border:1px solid #566963;
 	text-decoration:none;
 	display:inline-block;
-	font-size:15px;
+	font-size:0.938em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #91b8b3;
 	border-radius:28px;
@@ -581,14 +560,14 @@
 }
 
 .btn-rndrS { /*bouton côtés rond rouge petit*/
-	padding:4px 9px;
+	padding:0.250em 0.563em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#fe1a00;
 	border:1px solid #d83526;
 	text-decoration:none;
 	display:inline-block;
-	font-size:11px;
+	font-size:0.688em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #f29c93;
 	border-radius:28px;
@@ -605,14 +584,14 @@
 
 
 .btn-rndrM { /*bouton côtés rond rouge moyen*/
-	padding:7px 16px;
+	padding:0.438em 1em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#fe1a00;
 	border:1px solid #d83526;
 	text-decoration:none;
 	display:inline-block;
-	font-size:15px;
+	font-size:0.938em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #f29c93;
 	border-radius:28px;
@@ -628,14 +607,14 @@
 }
 
 .btn-rndrL { /*bouton côtés rond rouge large*/
-	padding:7px 50px;
+	padding:0.438em 3.125em;
 	color:#ffffff;
 	font-family:Arial;
 	background-color:#fe1a00;
 	border:1px solid #d83526;
 	text-decoration:none;
 	display:inline-block;
-	font-size:15px;
+	font-size:0.938em;
 	font-weight:bold;
 	box-shadow: 3px 3px 8px 0px #f29c93;
 	border-radius:28px;
@@ -722,10 +701,12 @@
 	background-color:#ce0100;
 }
 
+
+
 /*.navbar-btn {
   margin-top: 8px;
   margin-bottom: 8px;
-  }*/
+  }
 
  .pager {
   padding-left: 0;
@@ -754,5 +735,5 @@
 }
 .pager .next > a,
 .pager .next > span {
-  /*float: right;*/
-}
+  float: right;
+}*/
