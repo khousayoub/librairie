@@ -21,17 +21,17 @@
 </style>
   </head>
   <body>
-      <header class="header-horizontal">
+      <header class="header-horizontal posfix">
         <ul class="navbar-default navbar-large-black">
-          <li><a href="">Formulaires</a></li>
-          <li class="list"><a href="">Boutons &#x290B;</a>
+          <li><a href="#form">Formulaires</a></li>
+          <li class="list"><a href="#btn">Boutons &#x290B;</a>
             <div class="drop-list">
               <a href="">Pagination</a>
               <a href="">Pager</a>
               <a href="">Boutons standards & coloriés </a>
             </div>
           </li>
-          <li class="list"><a href="">Grid et POS &#x290B;</a>
+          <li class="list"><a href="#grid">Grid et POS &#x290B;</a>
             <div class="drop-list">
               <a href="">Columns</a>
               <a href="">Rows</a>
@@ -39,8 +39,8 @@
               <a href="">float</a>
             </div>
           </li>
-          <li><a href="">Margins/Paddings</a></li>
-          <li><a href="">Textes</a></li>
+          <li><a href="#marg">Margins/Paddings</a></li>
+          <li><a href="#text">Textes</a></li>
         </ul>
       </header>
       <div class="row" id="grid"> 
@@ -216,7 +216,7 @@
         <div class="col-marg-2"></div>
       </div>
       </div>
-      <div class="row"> 
+      <div class="row" id="btn"> 
         <h3 class="col-1 col-beauty" style="text-align:center;">
           Les bouttons
         </h3>
@@ -252,8 +252,18 @@
         <p>bouton rond vert  <a href="#" class="btn-RNDg">Valider</a> :btn-RNDg</p>
         <p>bouton rond gris  <a href="#" class="btn-RNDgry">Valider</a> :btn-RNDgry</p>
         <p>bouton rond rouge <a href="#" class="btn-RNDr">Valider</a> :btn-RNDr</p>
+        <p>pagination centrée avec la classe pagination</p>
+        <ul class="pagination">
+          <li><a href=""><<</a></li>
+          <li><a href="">1</a></li>
+          <li><a href="">2</a></li>
+          <li><a href="">3</a></li>
+          <li><a href="">4</a></li>
+          <li><a href="">5</a></li>
+          <li><a href="">>></a></li>
+        </ul>
       </div>
-      <div class="row" id="grid"> 
+      <div class="row" id="form"> 
         <h3 class="col-1 col-beauty" style="text-align:center;">
           Les Formulaires
         </h3>
