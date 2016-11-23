@@ -53,11 +53,11 @@ body {
 	color: white;
 	display: inline-block;
 }
-.navbar-default li:hover a{
+.navbar-default li a:hover{
 	background-color: black;
 	transition: background-color 0.5s;
 }
-.navbar-default li:active a{
+.navbar-default li a:active{
 	background-color: green;
 }
 .nav-top-fix {
@@ -85,10 +85,10 @@ body {
 .navbar-small-black li a {
 	color: white;
 }
-.navbar-large-black li:hover a, 
-.navbar-small-black li:hover a {
-	color: white;
-	background-color: grey;
+.navbar-large-black li a:hover, 
+.navbar-small-black li a:hover {
+	color: black;
+	background-color: white;
 	transition: background-color 0.5s, color 0.5s;
 }
 .navbar-large-black li:active a, 
@@ -100,11 +100,12 @@ body {
 	color: black;
 	background-color: white;
 }
-.navbar-large-white li:hover a,
-.navbar-small-white li:hover a {
+.navbar-large-white li a:hover,
+.navbar-small-white li a:hover {
 	color: white;
+	text-decoration-line: line-through;
 	background-color: black;
-	transition: background-color 0.5s, color 0.5s ;
+	transition: background-color 0.5s, color 0.5s, text 0.5s;
 }
 .navbar-large-white li:active a,
 .navbar-small-white li:active a {
@@ -114,6 +115,7 @@ body {
 	position: relative;
     display: inline-block;
 }
+
 .list a {
 	display: inline-block;
 }
@@ -150,6 +152,7 @@ li.list .drop-list a {
 	transition: background-color 0.5s;
 }
 .drop-list {
+	z-index: 10;
 	display: none;
 	position: absolute;
 	min-width: 160px;
