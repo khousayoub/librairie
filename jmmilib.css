@@ -22,7 +22,11 @@
     box-sizing: border-box;
     color: #ccc;
 }
-
+fieldset{
+  width: auto;
+  padding: 0;
+  min-width: 0;
+}
 
 /*form reset*/
 
@@ -35,5 +39,6 @@ button, input, select, textarea {
   @ media screen and (max-width: 800px){}
   .forminline, .formblock, button, input, select, textarea {
     width: 100%;
+    display: block;
   }
 }
