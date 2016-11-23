@@ -81,17 +81,17 @@ body {
 .navbar-large-black li {
 	flex: 1;
 }
-.navbar-large-black li a, 
+.navbar-large-black li a,
 .navbar-small-black li a {
 	color: white;
 }
-.navbar-large-black li a:hover, 
+.navbar-large-black li a:hover,
 .navbar-small-black li a:hover {
 	color: black;
 	background-color: white;
 	transition: background-color 0.5s, color 0.5s;
 }
-.navbar-large-black li:active a, 
+.navbar-large-black li:active a,
 .navbar-small-black li:active a {
 	background-color: blue;
 }
@@ -247,6 +247,10 @@ li.list .drop-list a {
 .btn-respon {
 	display: none;
 	background-image: url("travelmenu.png");
+	background-color: #fff;
+	width: 40px;
+	height: 40px;
+	position: fixed;
 }
 .btn-respon:hover header{
 	left: 0;
@@ -254,6 +258,7 @@ li.list .drop-list a {
 @media all and (max-width: 800px) {
 	body {
 		display: flex;
+		position: relative;
 	}
 	.container-column {
 		margin: 0;
@@ -261,19 +266,22 @@ li.list .drop-list a {
 	}
 	.btn-respon {
 		display: block;
-		top:0;
+	}
+	.btn-respon:hover + header {
 		left:0;
+		float: none;
+		transition: all 2s;
 	}
 	.navbar-default {
 		float: left;
-	    flex-direction: column;
-	    height: 100vh;
+    flex-direction: column;
+    height: 100vh;
 	}
 	header {
 		float: left;
-	    flex-direction: column;
-	    height: 100%!important;
-	    position: fixed!important;
-	    left: -170px;
+    flex-direction: column;
+    height: 100%!important;
+    position: fixed!important;
+    left: -195px;
 	}
 }
