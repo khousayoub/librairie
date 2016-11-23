@@ -115,7 +115,6 @@ body {
 	position: relative;
     display: inline-block;
 }
-
 .list a {
 	display: inline-block;
 }
@@ -235,13 +234,46 @@ li.list .drop-list a {
 }
 .pagination > li >a:hover
  {
- 	text-shadow: 1px 1px 2px black;
-	color: #662C56;
-	background-color: #eee;
+ 	text-shadow: 1px 1px 2px #35DA03;
+	color: white;
+	background-color: #35DA03;
 	border-color: #ddd;
 	transition: color 0.5s, background-color 0.5s;
 }
 .pagination > li >a:active {
-
+	color: white;
+	background-color: #35DA03;
 }
-
+.btn-respon {
+	display: none;
+	background-image: url("travelmenu.png");
+}
+.btn-respon:hover header{
+	left: 0;
+}
+@media all and (max-width: 800px) {
+	body {
+		display: flex;
+	}
+	.container-column {
+		margin: 0;
+		width: 100%;
+	}
+	.btn-respon {
+		display: block;
+		top:0;
+		left:0;
+	}
+	.navbar-default {
+		float: left;
+	    flex-direction: column;
+	    height: 100vh;
+	}
+	header {
+		float: left;
+	    flex-direction: column;
+	    height: 100%!important;
+	    position: fixed!important;
+	    left: -170px;
+	}
+}
