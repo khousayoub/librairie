@@ -1428,6 +1428,7 @@ fieldset{
   width: auto;
   padding: 0;
   min-width: 0;
+  border: 0;
 }
 /*form reset*/
 button, input, select, textarea {
